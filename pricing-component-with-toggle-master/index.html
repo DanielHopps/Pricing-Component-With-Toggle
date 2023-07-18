@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top">
+        <div class="heading">
+          <h2>Our Pricing</h2>
+        </div>
+        <div class="toggle">
+          <span>Annually</span>
+          <label class="switch">
+            <input type="checkbox" id="toggle" />
+            <span class="slider round"></span>
+          </label>
+          <span>Monthly</span>
+        </div>
+      </div>
+
+      <div class="pricing-cards">
+        <div class="pricing-plan">
+          <h3 class="pricing-header">Basic</h3>
+          <div class="pricing-price">
+            <span class="pricing-monthly hidden"
+              ><span class="dollar-sign">&dollar;</span>19.99</span
+            >
+            <span class="pricing-annual show"
+              ><span class="dollar-sign">&dollar;</span>199.99</span
+            >
+          </div>
+          <ul class="pricing-features">
+            <li class="pricing-features-item">500 GB Storage</li>
+            <li class="pricing-features-item">2 Users Allowed</li>
+            <li class="pricing-features-item">Send up to 3 GB</li>
+          </ul>
+          <a href="#" class="learn-more">Learn More</a>
+        </div>
+
+        <div class="pricing-plan middle-plan">
+          <h3 class="pricing-header">Professional</h3>
+          <div class="pricing-price middle-price">
+            <span class="pricing-monthly hidden"
+              ><span class="dollar-sign">&dollar;</span>24.99</span
+            >
+            <span class="pricing-annual show"
+              ><span class="dollar-sign">&dollar;</span>249.99</span
+            >
+          </div>
+          <ul class="pricing-features">
+            <li class="pricing-features-item middle-item">1 GB Storage</li>
+            <li class="pricing-features-item middle-item">5 Users Allowed</li>
+            <li class="pricing-features-item middle-item">Send up to 10 GB</li>
+          </ul>
+          <a href="#" class="learn-more" id="middle">Learn More</a>
+        </div>
+
+        <div class="pricing-plan">
+          <h3 class="pricing-header">Master</h3>
+          <div class="pricing-price">
+            <span class="pricing-monthly hidden"
+              ><span class="dollar-sign">&dollar;</span>39.99</span
+            >
+            <span class="pricing-annual show"
+              ><span class="dollar-sign">&dollar;</span>399.99</span
+            >
+          </div>
+          <ul class="pricing-features">
+            <li class="pricing-features-item">2 GB Storage</li>
+            <li class="pricing-features-item">10 Users Allowed</li>
+            <li class="pricing-features-item">Send up to 20 GB</li>
+          </ul>
+          <a href="#" class="learn-more">Learn More</a>
+        </div>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
